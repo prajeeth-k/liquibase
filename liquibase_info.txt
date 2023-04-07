@@ -1,0 +1,21 @@
+cd C:\Program Files\liquibase>
+
+C:\Program Files\liquibase> liquibase init project  --project-dir="D:\Prajeeth\liqiubase\postgresql" --changelog-file=changelog.sql --format=sql --project-defaults-file=liquibase_postgresql.properties --url=jdbc:postgresql://192.168.178.128:5432/dosa?currentSchema=public --username=oracle --password=Wilshire123#
+
+Created example changelog file 'D:\Prajeeth\liqiubase\postgresql\changelog.sql'
+Created example defaults file 'D:\Prajeeth\liqiubase\postgresql\liquibase_postgresql.properties'
+Created example flow file 'D:\Prajeeth\liqiubase\postgresql\liquibase.advanced.flowfile.yaml'
+Created example flow file 'D:\Prajeeth\liqiubase\postgresql\liquibase.flowvariables.yaml'
+Created example flow file 'D:\Prajeeth\liqiubase\postgresql\liquibase.endstage.flow'
+Created example flow file 'D:\Prajeeth\liqiubase\postgresql\liquibase.flowfile.yaml'
+
+To use the new project files, please cd into 'D:\Prajeeth\liqiubase\postgresql', make sure your database is active and accessible and run "liquibase update --defaults-file=liquibase_postgresql.properties".
+For more details, visit the Getting Started Guide at https://docs.liquibase.com/start/home.html
+Liquibase command 'init project' was executed successfully.
+
+#######################################################################################################################################################################################
+
+liquibase update --defaults-file=liquibase_postgresql.properties
+liquibase status --defaults-file=liquibase_postgresql.properties
+
+
