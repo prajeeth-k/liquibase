@@ -1,6 +1,8 @@
 cd C:\Program Files\liquibase>
 
-C:\Program Files\liquibase> liquibase init project  --project-dir="D:\Prajeeth\liqiubase\postgresql" --changelog-file=changelog.sql --format=sql --project-defaults-file=liquibase_postgresql.properties --url=jdbc:postgresql://192.168.178.128:5432/dosa?currentSchema=public --username=oracle --password=Wilshire123#
+C:\Program Files\liquibase> liquibase init project  --project-dir="D:\Prajeeth\liqiubase\postgresql" 
+    --changelog-file=changelog.sql --format=sql --project-defaults-file=liquibase_postgresql.properties
+    --url=jdbc:postgresql://192.168.178.128:5432/dosa?currentSchema=public --username=oracle --password=Wilshire123#
 
 Created example changelog file 'D:\Prajeeth\liqiubase\postgresql\changelog.sql'
 Created example defaults file 'D:\Prajeeth\liqiubase\postgresql\liquibase_postgresql.properties'

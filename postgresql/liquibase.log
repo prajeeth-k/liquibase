@@ -1865,3 +1865,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: syntax error at or near "au
 [2023-04-07 19:40:40] INFO [liquibase] Update command completed successfully.
 [2023-04-07 19:40:40] INFO [liquibase.executor] Changelog query completed.
 [2023-04-07 19:40:40] INFO [liquibase.lockservice] Successfully released change log lock
+[2023-04-12 11:20:33] INFO [liquibase.integration] Starting command execution.
+[2023-04-12 11:20:34] INFO [liquibase.database] Set default schema name to public
+[2023-04-12 11:20:34] INFO [liquibase.changelog] Reading from public.databasechangelog
+[2023-04-12 11:20:34] INFO [liquibase.executor] Changelog query completed.
